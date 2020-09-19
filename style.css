@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Lobster", sans-serif;
+  color: whitesmoke;
+}
+
+.landing {
+  min-height: 100vh;
+  background: url("./hero.jpg");
+  background-size: cover;
+  padding: 0rem, 5rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10vh;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
