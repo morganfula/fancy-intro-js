@@ -2,7 +2,7 @@
 
 Just a fake page with a fancy intro animation realised with GSAP
 
-![Alt Text](https://media.giphy.com/media/P2uwfaR21ANW6rDBOf/giphy.gif)
+<img src="https://media.giphy.com/media/P2uwfaR21ANW6rDBOf/giphy.gif" width="838">
 
 
 
