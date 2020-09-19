@@ -5,8 +5,9 @@
 }
 
 main {
-  font-family: "Lobster", sans-serif;
+  font-family: "Josefin", sans-serif;
   color: whitesmoke;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .landing {
@@ -22,6 +23,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   min-height: 10vh;
+  padding: 0% 5%;
 }
 
 .nav-links {
@@ -35,9 +37,10 @@ nav {
 }
 
 #logo {
-  font-family: "Lobster", cursive;
+  font-family: "Josefin", cursive;
   font-weight: lighter;
   font-size: 2rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .big-text {
@@ -46,6 +49,8 @@ nav {
   left: 50%;
   transform: translate(-50%, -30%);
   font-size: 5rem;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .intro {
@@ -67,7 +72,7 @@ nav {
 }
 
 .slider {
-  background: blue;
+  background: #102033;
   position: fixed;
   top: 0;
   left: 0;
@@ -77,4 +82,14 @@ nav {
   justify-content: center;
   align-items: center;
   transform: translateY(100%);
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
 }
